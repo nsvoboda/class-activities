@@ -10,6 +10,9 @@ img {
   height: 200px;
   background-color: lightblue;
   /* TODO: Add a margin property */
+  margin:20px;
   /* TODO: Add a padding property */
+  padding:20px;
   /* TODO: Add a border property */
+  border: darkblue solid 8px;
 }
