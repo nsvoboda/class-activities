@@ -89,6 +89,31 @@ footer {
 
 /* TODO: Add styles to display and hide the resource links */
 
+/* Hide the resource links by default */
+.resources .links{
+  display:none;
+  padding:1% 0;
+}
+
+/* Display the links when the parent is in a hover state */
+
+.resources:hover .links{
+  display:block;
+}
+
+.resources h3{
+  font-size:150%;
+}
+
+.links a{
+  color:#772014;
+  text-decoration: none;
+}
+
+.links a:hover{
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   header, main {
     flex-direction: column;

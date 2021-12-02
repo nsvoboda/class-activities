@@ -17,6 +17,9 @@ header {
 /* 
 What happens when we set the display property to flex? 
 TODO: Write your answer here 
+
+The content of that container will flex when the screen expands/contracts, making it adjustable to different screen sizes so that you don't have to scroll horizontally.
+
 */
 nav {
   display: flex;
@@ -33,6 +36,9 @@ nav a {
 /* 
 What is the flex-wrap property? 
 TODO: Write your answer here 
+
+This makes it so that the content wraps and stacks vertically.
+
 */
 main {
   display: flex;
@@ -57,6 +63,9 @@ footer {
 /* 
 What does the justify-content property do? 
 TODO: Write your answer here 
+
+Justify-content determines what is done with the additional space around the content that is being "flex-ed"
+
 */
 .products {
   flex: 4;
@@ -71,6 +80,9 @@ TODO: Write your answer here
 What is the flex property a shorthand property for?
 What is it doing here? 
 TODO: Write your answer here 
+
+The flex property is a shorthand for how to grow/shrink the content to fit the space available. Here it is telling each card element to take up 400px without shrinking or growing at all.
+
 */
 .card {
   border-style: solid;
@@ -96,6 +108,9 @@ TODO: Write your answer here
 What does the flex-direction property define?
 What is it doing here? 
 TODO: Write your answer here 
+
+Flex direction determines if the content is oriented in a row or column. It is always set to be horizontal by default, but here it is being changed to a column.
+
 */
 @media screen and (max-width: 768px) {
   main,
